@@ -378,10 +378,6 @@
 // 	console.log('hello');
 // 	eel.getTiming(day);
 // }
-
-// function toggleButton(btnID) {
-// 	document.getElementById(btnID).disabled = false;
-// }
 // function signIn(){
 // 	eel.login_to_google()
 // }
@@ -390,3 +386,7 @@
 // 	var UserEmail = document.getElementById('user_email');
 // 	var UserMessage = document.getElementById('user_message');
 // }
+
+function toggleButton(btnID) {
+  document.getElementById(btnID).disabled = false;
+}
